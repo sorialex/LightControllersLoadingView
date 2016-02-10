@@ -17,7 +17,7 @@ class LoadingViewController: UIViewController {
     override func loadView() {
         // view initialization
         activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge);
-        activityIndicator?.backgroundColor = UIColor.grayColor();
+        activityIndicator!.backgroundColor = UIColor.grayColor();
         activityIndicator!.hidesWhenStopped = true;
         
         // setting activity indicator as controller's one
